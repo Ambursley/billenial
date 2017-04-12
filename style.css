@@ -1,0 +1,130 @@
+body {
+    background: white;
+    font-family: Futura, Helvetica, sans-serif 14pt bold lightgrey;
+    /*  width: 100%;*/
+    overflow: hidden;
+}
+
+a {
+    font-family: Futura, Helvetica, sans-serif 14pt bold lightgrey;
+}
+
+a:visited {
+    font-family: Futura, Helvetica, sans-serif 14pt bold lightgrey;
+}
+
+#logo {
+    position: relative;
+    top: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    z-index: 999;
+}
+
+#logo p {
+    font-family: helvetica;
+    font-size: 15px;
+    color: #c3c3c3;
+    position: relative;
+    top: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+#wolf {
+    z-index: 1;
+}
+
+#small {
+    bottom: 40px;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ul#social {
+    padding-top: 40px;
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+    /*  float: left;*/
+    display: block;
+    /*  left: 50%;*/
+}
+
+#social>li {
+    position: relative;
+    float: left;
+    display: block;
+    right: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.fade {
+    animation: fadein 4s;
+    -moz-animation: fadein 4s;
+    /* Firefox */
+    -webkit-animation: fadein 4s;
+    /* Safari and Chrome */
+    -o-animation: fadein 4s;
+    /* Opera */
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+    /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+    /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-device-width: 1024px) {
+    #logo img {
+        width: 200px;
+    }
+}
+
+footer {
+    font-family: helvetica;
+    font-size: 10px;
+    color: #c3c3c3;
+    position: relative;
+    top: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
