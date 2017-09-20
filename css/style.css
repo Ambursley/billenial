@@ -99,11 +99,13 @@ body {
     }
 }
 
+/*
 @media only screen and (max-device-width: 1024px) {
     #logo img {
         width: 200px;
     }
 }
+*/
 
 footer {
     font-family: 'Open Sans', sans-serif;
